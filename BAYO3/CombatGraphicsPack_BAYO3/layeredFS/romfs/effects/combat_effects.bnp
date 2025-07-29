@@ -1,0 +1,41 @@
+# Combat Effects Configuration for BAYO3
+# Author: Unix228
+# Binary format for enhanced combat visual effects
+
+[COMBAT_EFFECTS]
+# Particle system settings
+particle_count_multiplier = 2.0
+particle_life_multiplier = 1.5
+particle_size_multiplier = 1.3
+
+# Effect types
+fire_effect_intensity = 1.5
+magic_effect_intensity = 1.8
+blood_effect_intensity = 1.2
+explosion_effect_intensity = 2.0
+
+# Bloom and glow effects
+bloom_intensity = 1.5
+glow_intensity = 1.3
+motion_blur_strength = 0.8
+
+[LIGHTING_EFFECTS]
+# Dynamic lighting during combat
+dynamic_lighting = 1
+light_intensity_multiplier = 1.4
+shadow_softness = 2.0
+
+# Color grading
+combat_color_temperature = 6500
+combat_saturation = 1.2
+combat_contrast = 1.1
+
+[PERFORMANCE]
+# Frame rate optimization
+target_fps = 60
+particle_culling = 1
+lod_distance_multiplier = 1.2
+
+# Memory management
+particle_pool_size = 2048
+effect_cache_size = 256

@@ -1,0 +1,26 @@
+# Enhanced Shadows Configuration for TOTK
+# Author: Unix228
+# Binary format for shadow settings
+
+[SHADOW_CONFIG]
+shadow_map_size = 4096
+shadow_cascade_count = 4
+shadow_bias = 0.0001
+shadow_normal_bias = 1.0
+shadow_softness = 2.0
+shadow_max_distance = 1000.0
+shadow_fade_distance = 800.0
+
+[CASCADE_DISTANCES]
+cascade_0 = 50.0
+cascade_1 = 150.0
+cascade_2 = 400.0
+cascade_3 = 1000.0
+
+[QUALITY_SETTINGS]
+shadow_filtering = 1
+shadow_contact_shadows = 1
+shadow_volumetric_shadows = 1
+shadow_ssao_enabled = 1
+shadow_ssao_radius = 0.5
+shadow_ssao_intensity = 1.0

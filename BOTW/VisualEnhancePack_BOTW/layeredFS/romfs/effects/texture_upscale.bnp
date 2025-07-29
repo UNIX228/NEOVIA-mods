@@ -1,0 +1,36 @@
+# Texture Upscale Configuration for BOTW
+# Author: Unix228
+# Binary format for texture enhancement settings
+
+[TEXTURE_UPSCALE]
+# Upscaling method
+upscale_method = 2x_esrgan
+texture_filter = lanczos
+anisotropic_filtering = 16x
+
+# Quality settings
+texture_quality = ultra
+compression_quality = high
+mipmap_levels = 8
+
+# Specific texture types
+terrain_texture_scale = 2.0
+character_texture_scale = 2.0
+ui_texture_scale = 1.5
+effect_texture_scale = 2.0
+
+# Memory optimization
+texture_cache_size = 256
+streaming_buffer_size = 512
+compression_format = bc7
+
+[LOD_SETTINGS]
+# Level of Detail improvements
+lod_distance_multiplier = 1.5
+lod_transition_distance = 100.0
+lod_bias = -0.5
+
+# Object detail
+object_detail_multiplier = 2.0
+vegetation_detail = ultra
+water_detail = high

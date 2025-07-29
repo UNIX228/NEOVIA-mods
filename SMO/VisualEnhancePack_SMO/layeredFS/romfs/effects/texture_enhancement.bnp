@@ -1,0 +1,54 @@
+# Texture Enhancement Configuration for SMO
+# Author: Unix228
+# Binary format for texture enhancement settings
+
+[TEXTURE_ENHANCEMENT]
+# Upscaling method
+upscale_method = 2x_esrgan
+texture_filter = lanczos
+anisotropic_filtering = 16x
+
+# Quality settings
+texture_quality = ultra
+compression_quality = high
+mipmap_levels = 8
+
+# Specific texture types
+character_texture_scale = 2.0
+environment_texture_scale = 2.0
+ui_texture_scale = 1.5
+effect_texture_scale = 2.0
+
+# Memory optimization
+texture_cache_size = 256
+streaming_buffer_size = 512
+compression_format = bc7
+
+[WORLD_SPECIFIC]
+# Kingdom-specific texture improvements
+cap_kingdom_enhancement = 1
+cascade_kingdom_enhancement = 1
+sand_kingdom_enhancement = 1
+lake_kingdom_enhancement = 1
+wooded_kingdom_enhancement = 1
+cloud_kingdom_enhancement = 1
+lost_kingdom_enhancement = 1
+metro_kingdom_enhancement = 1
+snow_kingdom_enhancement = 1
+seaside_kingdom_enhancement = 1
+luncheon_kingdom_enhancement = 1
+ruined_kingdom_enhancement = 1
+bowser_kingdom_enhancement = 1
+moon_kingdom_enhancement = 1
+mushroom_kingdom_enhancement = 1
+
+[LOD_SETTINGS]
+# Level of Detail improvements
+lod_distance_multiplier = 1.5
+lod_transition_distance = 80.0
+lod_bias = -0.5
+
+# Object detail
+object_detail_multiplier = 2.0
+character_detail = ultra
+environment_detail = high

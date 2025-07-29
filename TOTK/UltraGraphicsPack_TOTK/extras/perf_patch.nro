@@ -1,0 +1,24 @@
+# Performance Patch for TOTK
+# Author: Unix228
+# Binary executable for performance optimizations
+
+[PERFORMANCE_PATCH]
+# Increase draw distance
+draw_distance_multiplier = 2.0
+lod_distance_multiplier = 1.5
+
+# Optimize shadow settings
+shadow_cascade_optimization = 1
+shadow_map_compression = 1
+
+# Texture streaming improvements
+texture_streaming_buffer_size = 256
+texture_mipmap_levels = 4
+
+# Memory optimizations
+memory_pool_size = 512
+texture_cache_size = 128
+
+# Frame rate improvements
+vsync_override = 0
+frame_rate_limit = 60
