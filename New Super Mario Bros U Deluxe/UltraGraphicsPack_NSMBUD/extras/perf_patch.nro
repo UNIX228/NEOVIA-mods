@@ -1,1 +1,32 @@
-# Performance Patch for 
+# Performance Patch for NSMBUD
+
+[PERFORMANCE_PATCH]
+cpu_governor = performance
+cpu_frequency_boost = 1
+cpu_cache_optimization = 1
+gpu_boost = 1
+gpu_memory_optimization = 1
+gpu_shader_cache = 1
+
+[MEMORY_OPTIMIZATION]
+texture_streaming = 1
+texture_pool_size = 512
+shader_cache_size = 256
+memory_pool_optimization = 1
+
+[FRAME_RATE]
+target_fps = 60
+vsync_override = 1
+frame_time_optimization = 1
+
+[RENDERING]
+draw_distance_boost = 1
+lod_optimization = 1
+shadow_quality = ultra
+particle_culling = 1
+
+[LIGHTING]
+enhanced_ambient = 1
+dynamic_lighting = 1
+shadow_resolution = 4096
+lighting_quality = ultra
