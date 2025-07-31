@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Unix228",
   "game_id": "MC",
-  "description": "Maximum graphics quality for Minecraft with ray tracing, enhanced shadows, ultra textures and 60 FPS optimization.",
+  "description": "Maximum graphics quality for Minecraft with AI upscaling, advanced voxel lighting, enhanced shadows, ultra textures, global illumination and 60 FPS optimization.",
   "type": "graphics",
   "downloads": 2,
   "real_mod": {

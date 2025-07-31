@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Unix228",
   "game_id": "MARIORABBIDS",
-  "description": "Maximum graphics quality for Mario Rabbids Kingdom Battle with enhanced lighting, ultra textures, improved shadows and 60 FPS optimization.",
+  "description": "Maximum graphics quality for Mario Rabbids Kingdom Battle with AI upscaling, dynamic lighting, enhanced shadows, ultra textures, global illumination and 60 FPS optimization.",
   "type": "graphics",
   "downloads": 0
 }

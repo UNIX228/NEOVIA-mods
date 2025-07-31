@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Unix228",
   "game_id": "SHOVELKNIGHT",
-  "description": "Maximum graphics quality for Shovel Knight with ray tracing, enhanced shadows, ultra textures and 60 FPS optimization.",
+  "description": "Maximum graphics quality for Shovel Knight with AI upscaling, dynamic lighting, enhanced shadows, ultra textures, global illumination and 60 FPS optimization.",
   "type": "graphics",
   "downloads": 0
 }

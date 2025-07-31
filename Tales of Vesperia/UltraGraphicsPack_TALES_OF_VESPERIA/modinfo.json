@@ -1,1 +1,9 @@
-{"name":"Ultra Graphics Pack","version":"1.0.0","author":"Unix228","game_id":"TALES_OF_VESPERIA","description":"Maximum graphics quality for Tales of Vesperia with enhanced lighting, ultra textures, improved shadows and 60 FPS optimization.","type":"graphics","downloads":0}
+{
+  "name": "Ultra Graphics Pack",
+  "version": "1.0.0",
+  "author": "Unix228",
+  "game_id": "TALES_OF_VESPERIA",
+  "description": "Maximum graphics quality for Tales of Vesperia with AI upscaling, dynamic lighting, enhanced shadows, ultra textures, global illumination and 60 FPS optimization.",
+  "type": "graphics",
+  "downloads": 0
+}

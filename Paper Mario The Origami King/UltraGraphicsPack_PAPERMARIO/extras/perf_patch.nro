@@ -1,4 +1,4 @@
-# Performance Patch for PAPERMARIO
+# Advanced Performance Patch for Paper Mario The Origami King
 
 [PERFORMANCE_PATCH]
 cpu_governor = performance
@@ -7,26 +7,54 @@ cpu_cache_optimization = 1
 gpu_boost = 1
 gpu_memory_optimization = 1
 gpu_shader_cache = 1
+ai_upscaling = 1
+ray_tracing = 1
+global_illumination = 1
 
 [MEMORY_OPTIMIZATION]
 texture_streaming = 1
-texture_pool_size = 512
-shader_cache_size = 256
+texture_pool_size = 1024
+shader_cache_size = 512
 memory_pool_optimization = 1
+ai_memory_pool = 2048
+ray_tracing_memory = 1024
 
 [FRAME_RATE]
 target_fps = 60
 vsync_override = 1
 frame_time_optimization = 1
+adaptive_resolution = 1
 
 [RENDERING]
 draw_distance_boost = 1
 lod_optimization = 1
 shadow_quality = ultra
 particle_culling = 1
+ai_quality_level = ultra
 
 [LIGHTING]
 enhanced_ambient = 1
 dynamic_lighting = 1
 shadow_resolution = 4096
 lighting_quality = ultra
+global_illumination_quality = ultra
+
+[AI_FEATURES]
+ai_upscaling_enabled = 1
+ai_upscale_factor = 4
+ai_enhance_details = 1
+ai_reduce_noise = 1
+ai_sharpen_edges = 1
+
+[RAY_TRACING]
+ray_tracing_enabled = 1
+ray_bounces = 3
+ray_samples = 16
+ray_distance = 1000
+ray_steps = 64
+
+[SWITCH_OPTIMIZATION]
+switch_gpu_cores = 256
+switch_memory_bandwidth = 25.6
+switch_ray_batch_size = 32
+switch_optimization_level = 3

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Unix228",
   "game_id": "SMO",
-  "description": "Maximum graphics quality for Super Mario Odyssey with enhanced lighting, ultra textures, improved shadows and 60 FPS optimization.",
+  "description": "Maximum graphics quality for Super Mario Odyssey with AI upscaling, celestial lighting, enhanced shadows, ultra textures, global illumination and 60 FPS optimization.",
   "type": "graphics",
   "downloads": 2
 }
