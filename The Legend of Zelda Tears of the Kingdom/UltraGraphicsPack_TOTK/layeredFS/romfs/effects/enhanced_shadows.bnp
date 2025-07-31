@@ -1,0 +1,50 @@
+# Enhanced Shadows Configuration for The Legend of Zelda: Tears of the Kingdom
+# Author: Unix228
+# Maximum graphics quality without overclocking
+
+[SHADOW_CONFIG]
+# Shadow map settings
+shadow_map_size = 4096
+shadow_cascade_count = 4
+shadow_bias = 0.0001
+shadow_normal_bias = 1.0
+shadow_softness = 2.0
+shadow_max_distance = 1000.0
+shadow_fade_distance = 800.0
+
+# SSAO settings
+ssao_enabled = 1
+ssao_radius = 0.5
+ssao_bias = 0.025
+ssao_intensity = 1.0
+ssao_samples = 16
+
+# Character shadows
+character_shadow_enabled = 1
+character_shadow_resolution = 2048
+character_shadow_softness = 1.5
+character_shadow_distance = 200.0
+
+# Environmental shadows
+environment_shadow_enabled = 1
+environment_shadow_resolution = 4096
+environment_shadow_softness = 2.0
+environment_shadow_distance = 500.0
+
+# Dynamic shadows
+dynamic_shadow_enabled = 1
+dynamic_shadow_resolution = 1024
+dynamic_shadow_softness = 1.0
+dynamic_shadow_distance = 100.0
+
+# Shadow quality settings
+shadow_quality = ultra
+shadow_filtering = pcf_16x
+shadow_compression = bc7
+shadow_mipmap_levels = 8
+
+# Performance settings
+shadow_culling_enabled = 1
+shadow_lod_enabled = 1
+shadow_streaming_enabled = 1
+shadow_cache_size = 512

@@ -1,0 +1,46 @@
+# Texture Settings Configuration for Minecraft
+# Author: Unix228
+# Maximum graphics quality without overclocking
+
+[TEXTURE_SETTINGS]
+# Texture resolution settings
+texture_resolution = 4096
+texture_filtering = anisotropic_16x
+texture_compression = bc7
+texture_quality = ultra
+
+# Block texture settings
+block_texture_resolution = 4096
+block_texture_filtering = anisotropic_16x
+block_texture_compression = bc7
+block_texture_quality = ultra
+
+# Item texture settings
+item_texture_resolution = 2048
+item_texture_filtering = anisotropic_8x
+item_texture_compression = bc7
+item_texture_quality = ultra
+
+# UI texture settings
+ui_texture_resolution = 1024
+ui_texture_filtering = bilinear
+ui_texture_compression = bc3
+ui_texture_quality = high
+
+# Particle texture settings
+particle_texture_resolution = 512
+particle_texture_filtering = trilinear
+particle_texture_compression = bc3
+particle_texture_quality = medium
+
+# Memory optimization
+texture_memory_pool = 2048
+texture_cache_size = 1024
+texture_streaming_buffer = 512
+texture_mipmap_levels = 8
+
+# LOD settings
+texture_lod_bias = -1.0
+texture_lod_min = 0
+texture_lod_max = 8
+texture_lod_enabled = 1
