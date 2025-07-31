@@ -5,7 +5,7 @@
   "game_id": "MC",
   "description": "Maximum graphics quality for Minecraft with ray tracing, enhanced shadows, ultra textures and 60 FPS optimization.",
   "type": "graphics",
-  "downloads": 0,
+  "downloads": 2,
   "real_mod": {
     "name": "OptiFine HD",
     "author": "sp614x",
