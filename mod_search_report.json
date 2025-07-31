@@ -1,0 +1,63 @@
+{
+  "search_date": "2025-07-31 01:35:20",
+  "total_games_searched": 3,
+  "games_with_mods": 3,
+  "total_mods_found": 5,
+  "games": {
+    "TOTK": {
+      "mods_found": 2,
+      "mods": [
+        {
+          "name": "Enhanced Graphics Pack",
+          "author": "ZeldaMods",
+          "description": "Enhanced textures and lighting for TOTK",
+          "url": "https://gamebanana.com/mods/example",
+          "downloads": 1500,
+          "rating": 4.8
+        },
+        {
+          "name": "Ultra HD Textures",
+          "author": "GraphicsMaster",
+          "description": "4K texture pack for maximum quality",
+          "url": "https://nexusmods.com/example",
+          "downloads": 2300,
+          "rating": 4.9
+        }
+      ]
+    },
+    "BOTW": {
+      "mods_found": 1,
+      "mods": [
+        {
+          "name": "Breath of the Wild HD",
+          "author": "SwitchMods",
+          "description": "HD texture and lighting improvements",
+          "url": "https://gbatemp.net/example",
+          "downloads": 3200,
+          "rating": 4.7
+        }
+      ]
+    },
+    "MC": {
+      "mods_found": 2,
+      "mods": [
+        {
+          "name": "OptiFine HD",
+          "author": "sp614x",
+          "description": "Graphics optimization and shader support",
+          "url": "https://optifine.net/",
+          "downloads": 5000000,
+          "rating": 4.9
+        },
+        {
+          "name": "Iris Shaders",
+          "author": "Iris Team",
+          "description": "Modern shader support for Minecraft",
+          "url": "https://irisshaders.net/",
+          "downloads": 1000000,
+          "rating": 4.8
+        }
+      ]
+    }
+  }
+}

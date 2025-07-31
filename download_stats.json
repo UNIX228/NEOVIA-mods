@@ -1,0 +1,21 @@
+{
+  "export_date": "2025-07-31T01:34:54.433721",
+  "total_games": 2,
+  "total_downloads": 3,
+  "games": [
+    {
+      "game_id": "TOTK",
+      "game_name": "The Legend of Zelda: Tears of the Kingdom",
+      "total_downloads": 2,
+      "last_download": "2025-07-31 01:34:54",
+      "first_download": "2025-07-31 01:34:54"
+    },
+    {
+      "game_id": "BOTW",
+      "game_name": "The Legend of Zelda: Breath of the Wild",
+      "total_downloads": 1,
+      "last_download": "2025-07-31 01:34:54",
+      "first_download": "2025-07-31 01:34:54"
+    }
+  ]
+}
